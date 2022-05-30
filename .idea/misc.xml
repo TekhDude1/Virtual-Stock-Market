@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.23802083333333332" />
+        <entry key="app/src/main/res/drawable/background_border.xml" value="0.14114583333333333" />
+        <entry key="app/src/main/res/drawable/bottommenu_portfolio_foreground.xml" value="0.125" />
+        <entry key="app/src/main/res/drawable/button_outliner.xml" value="0.11770833333333333" />
+        <entry key="app/src/main/res/drawable/home.xml" value="0.1945" />
+        <entry key="app/src/main/res/drawable/ic_launcher_background.xml" value="0.23802083333333332" />
+        <entry key="app/src/main/res/drawable/swipe_button.xml" value="0.12447916666666667" />
+        <entry key="app/src/main/res/drawable/swipebutton_background.xml" value="0.12447916666666667" />
+        <entry key="app/src/main/res/layout/activity_buy_page.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/activity_dashboard.xml" value="0.125" />
+        <entry key="app/src/main/res/layout/activity_login_page.xml" value="0.24423348333029574" />
+        <entry key="app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/activity_sell_page.xml" value="0.125" />
+        <entry key="app/src/main/res/layout/activity_sign_up_page.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/activity_testing_page.xml" value="0.221875" />
+        <entry key="app/src/main/res/layout/activity_verification_code_page.xml" value="0.10790273556231003" />
+        <entry key="app/src/main/res/layout/buy_sell_bottomsheet.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/data_boxes.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/home.xml" value="0.165" />
+        <entry key="app/src/main/res/layout/orderpage_boxes.xml" value="0.335" />
+        <entry key="app/src/main/res/layout/orders.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/portfolio.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/portfoliopage_boxes.xml" value="0.3993055555555556" />
+        <entry key="app/src/main/res/layout/recyclerview_watchlist.xml" value="0.375" />
+        <entry key="app/src/main/res/layout/settings.xml" value="0.28207868435662625" />
+        <entry key="app/src/main/res/menu/dashboard_bottommenu.xml" value="0.25" />
+        <entry key="app/src/main/res/menu/home_recyclerview_menu.xml" value="0.1" />
+        <entry key="app/src/main/res/menu/orderpage_menu.xml" value="0.10833333333333334" />
+        <entry key="app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.21666666666666667" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+  <component name="VisualizationToolProject">
+    <option name="state">
+      <ProjectState>
+        <option name="scale" value="0.165" />
+      </ProjectState>
+    </option>
+  </component>
+</project>

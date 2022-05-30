@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <com.google.android.material.textview.MaterialTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Symbol"
+            android:textSize="25dp"
+            android:textColor="@color/black"
+            android:id="@+id/buyselldialogbox_symbol"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="10dp"/>
+
+        <com.google.android.material.textview.MaterialTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Price"
+            android:textColor="@color/black"
+            android:textSize="15dp"
+            android:id="@+id/buyselldialogbox_price"
+            android:layout_below="@+id/buyselldialogbox_symbol"
+            android:layout_marginTop="2dp"
+            android:layout_marginLeft="15dp"/>
+
+        <com.google.android.material.textview.MaterialTextView
+            android:id="@+id/buyselldialogbox_pricepercent"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/buyselldialogbox_symbol"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="2dp"
+            android:layout_toRightOf="@id/buyselldialogbox_price"
+
+            android:text="0.00%"
+            android:textColor="@color/black"
+            android:textSize="15dp" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="30dp"
+        android:layout_marginTop="-10dp"
+        android:gravity="center">
+        <com.google.android.material.button.MaterialButton
+            android:layout_width="140dp"
+            android:layout_height="60dp"
+            android:padding="10dp"
+            android:text="BUY"
+            app:cornerRadius="10dp"
+            android:layout_marginRight="10dp"
+            android:id="@+id/buyselldialogbox_buy"
+            android:backgroundTint="#0090FF"/>
+        <com.google.android.material.button.MaterialButton
+            android:layout_width="140dp"
+            android:layout_height="60dp"
+            android:padding="10dp"
+            android:text="SELL"
+            app:cornerRadius="10dp"
+            android:layout_marginLeft="10dp"
+            android:id="@+id/buyselldialogbox_sell"
+            android:backgroundTint="#EF0245"/>
+    </LinearLayout>
+
+</LinearLayout>

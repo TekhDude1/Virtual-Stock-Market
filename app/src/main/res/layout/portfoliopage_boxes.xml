@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="3dp"
+    app:cardElevation="3dp"
+    android:layout_margin="3dp"
+    app:cardBackgroundColor="@color/white"
+    app:strokeColor="@color/black"
+    app:strokeWidth="1dp"
+
+    android:layout_height="wrap_content"
+    android:padding="3dp">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/portfoliopage_linearlayout1"
+            android:orientation="horizontal"
+            android:layout_marginStart="2dp"
+            android:layout_marginTop="2dp"
+            android:layout_marginEnd="2dp">
+
+            <TextView
+                android:id="@+id/portfoliopage_buyprice"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toLeftOf="@+id/profitpercent"
+                android:paddingLeft="3dp"
+                android:paddingRight="3dp"
+                android:text="Price"
+                android:textSize="11sp" />
+
+            <TextView
+                android:id="@+id/portfoliopage_buyquantity"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="3dp"
+                android:paddingRight="3dp"
+                android:paddingBottom="2dp"
+                android:text="Qty"
+                android:textSize="11sp" />
+
+            <TextView
+                android:id="@+id/portfoliopage_profitpercent"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/amaranth"
+                android:gravity="right"
+                android:paddingLeft="3dp"
+                android:paddingRight="3dp"
+                android:paddingBottom="2dp"
+                android:text="Percent"
+                android:textColor="@color/black"
+                android:textSize="13dp" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/portfoliopage_symbol"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/portfoliopage_linearlayout1"
+            android:layout_marginStart="3dp"
+            android:layout_marginTop="0dp"
+            android:layout_marginEnd="3dp"
+            android:layout_marginBottom="0dp"
+            android:fontFamily="@font/allerta"
+            android:paddingLeft="1dp"
+            android:paddingTop="0dp"
+            android:paddingRight="1dp"
+            android:text="Symbol"
+            android:textColor="@color/black"
+            android:textSize="18dp" />
+
+        <TextView
+            android:id="@+id/portfoliopage_investment"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/portfoliopage_symbol"
+            android:layout_marginStart="3dp"
+            android:layout_marginTop="1dp"
+            android:layout_marginEnd="3dp"
+            android:layout_marginBottom="0dp"
+
+            android:paddingLeft="1dp"
+            android:paddingTop="1dp"
+            android:paddingRight="1dp"
+            android:text="Invested"
+            android:textSize="11sp" />
+
+
+        <TextView
+            android:id="@+id/portfoliopage_profit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/portfoliopage_linearlayout1"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="0dp"
+            android:layout_marginRight="3dp"
+            android:fontFamily="@font/amaranth"
+            android:paddingLeft="1dp"
+            android:paddingTop="0dp"
+            android:paddingRight="1dp"
+            android:text="Profit"
+            android:textColor="@color/black"
+            android:textSize="18dp" />
+
+        <TextView
+            android:id="@+id/portfoliopage_ltpchange"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/portfoliopage_profit"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginStart="3dp"
+            android:layout_marginTop="1dp"
+            android:layout_marginEnd="3dp"
+            android:layout_marginBottom="0dp"
+
+            android:paddingLeft="1dp"
+            android:paddingTop="1dp"
+            android:paddingRight="1dp"
+            android:text="LTP"
+            android:textSize="12sp" />
+
+
+    </RelativeLayout>
+
+</com.google.android.material.card.MaterialCardView>
